@@ -42,6 +42,9 @@ app.post("/login", async (req, res) => {
   res.json({ token });
 });
 
+app.get("/", (req, res) => {
+  res.send("Notes API running ✅");
+});
 
 app.listen(5000, () => console.log("Server running on port 5000"));
 

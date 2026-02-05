@@ -1,4 +1,4 @@
-const API = "https://notes-backend.onrender.com";
+const API = "https://notes-website-boyg.onrender.com";
 
 if (!localStorage.getItem("token")) {
   window.location.href = "index.html";

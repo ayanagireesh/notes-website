@@ -1,4 +1,4 @@
-const API = "https://notes-backend.onrender.com";
+const API = "https://notes-website-boyg.onrender.com";
 
 async function signup() {
   const email = signupEmail.value;
