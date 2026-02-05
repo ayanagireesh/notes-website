@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<header>
+  <h1>My Notes</h1>
+  <button onclick="logout()">Logout</button>
+</header>
+
+<div class="input-box">
+  <textarea id="note" placeholder="Write a note..."></textarea>
+  <button onclick="saveNote()">Save</button>
+</div>
+
+<div id="notes" class="notes"></div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
